@@ -1,0 +1,75 @@
+<div class="container-lg">
+  <div class="row">
+    <div class="col d-flex mt-4 justify-content-start align-items-center">
+      <i class="bi bi-cash-coin color-primary icon-detail"></i>
+      <span class="fs-2" id="total">R${{ammout}}</span>
+    </div>
+    <div class="col d-flex mt-4 justify-content-end">
+      <div class="text-center">
+        <img src="../../../assets/coins-small.png" alt="image coins" srcset="" style="width: 70%;">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 info shadow-lg" style="border-radius: 10px;">
+      <div class="container">
+        <div class="row" style="padding-top: 1rem">
+          <div class="col-6">
+            <span class="fs-4">                 
+              Entradas <i class="bi bi-arrow-down-circle fs-2 align-middle"></i>
+            </span>
+          </div>
+          <div class="col-6">
+            <span class="fs-4">
+              Saidas <i class="bi bi-arrow-up-circle fs-2 align-middle"></i>
+            </span>
+          </div>
+          <div class="col-12 my-2"><hr style="margin: 0; margin-bottom: 1rem;"></div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="container p-0" id="cash-in-list" *ngFor="let item of getTransactionsOfTypeOne('1')">
+              <div class="row mb-4">
+                <div class="col-12">
+                  <h3 class="fs-2">R$ {{item.value}}</h3>
+                  <div class="container p-0">
+                    <div class="row">
+                      <div class="col-12 col-md-8">
+                        <p>{{item.description}}</p>
+                      </div>
+                      <div class="col-12 col-md-3 d-flex justify-content-end">
+                        <p>{{convertToDate(item.date)}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="container p-0" id="cash-out-list" *ngFor="let item of getTransactionsOfTypeOne('2')">
+              <div class="row mb-4">
+                <div class="col-12">
+                  <h3 class="fs-2">R$ {{item.value}}</h3>
+                  <div class="container p-0"> 
+                    <div class="row">
+                      <div class="col-12 col-md-8">
+                        <p>{{item.description}}</p>
+                      </div>
+                      <div class="col-12 col-md-3 d-flex justify-content-end">
+                        <p>{{ convertToDate(item.date)}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-4">
+            <button type="button" class="btn button-default" id="transactions-button" (click)="ChangePage('Historico')"> Ver Todos </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

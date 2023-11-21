@@ -1,0 +1,40 @@
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Cadastro de usuario</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<form>
+			<div class="mb-3">
+				<label for="login_sub">Login</label>
+				<div class="input-group">
+					<input
+						id="login_sub"
+						class="form-control"
+            [(ngModel)]="login_sub"
+						placeholder="Insira seu login"
+						name="login_sub"
+					/>
+				</div>
+			</div>
+      <div class="mb-3">
+				<label for="senha_sub">Senha</label>
+				<div class="input-group">
+					<input
+						id="senha_sub"
+						class="form-control"
+            type="password"
+            [(ngModel)]="senha_sub"
+						placeholder="Insira sua senha"
+						name="senha_sub"
+					/>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-primary" (click)="modal.close('Save click'); save()">Salvar</button>
+	</div>
+</ng-template>
+
+<button class="btn btn-primary" (click)="open(content)">Cadastre-se</button>

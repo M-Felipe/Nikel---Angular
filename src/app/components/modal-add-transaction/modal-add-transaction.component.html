@@ -1,0 +1,70 @@
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Inserção de transação</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<form>
+      <div class="mb-3">
+				<label for="descValue">Valor</label>
+				<div class="input-group">
+					<input
+						id="descValue"
+						class="form-control"
+						placeholder="Insira o valor"
+						name="descValue"
+						[(ngModel)]="descValue"
+            type="number"
+            min="0"
+            aria-describedby="emailHelp"
+						required
+					/>
+				</div>
+			</div>
+      <div class="mb-3">
+				<label for="descTransaction">Descrição</label>
+				<div class="input-group">
+					<input
+						id="descTransaction"
+						class="form-control"
+						placeholder="Insira a descrição"
+						name="descTransaction"
+						[(ngModel)]="descTransaction"
+            type="text"
+					/>
+				</div>
+			</div>
+			<div class="mb-3">
+				<label for="dateOfTransaction">Date da transação</label>
+				<div class="input-group">
+					<input
+						id="dateOfTransaction"
+						class="form-control"
+						placeholder="yyyy-mm-dd"
+						name="dateOfTransaction"
+						[(ngModel)]="dateOfTransaction"
+						ngbDatepicker
+						#dp="ngbDatepicker"
+            aria-describedby="emailHelp"
+						required
+					/>
+					<button class="btn btn-outline-secondary bi bi-calendar3" (click)="dp.toggle()" type="button"></button>
+				</div>
+			</div>
+      <div class="mb-3">
+        <section class="example-section">
+          <label class="example-margin">Tipo:</label>
+          <mat-radio-group id="Tipo" name="Tipo" [(ngModel)]="Tipo">
+            <mat-radio-button class="example-margin" value="1" se>Entrada</mat-radio-button>
+            <mat-radio-button class="example-margin" value="2">Saida</mat-radio-button>
+          </mat-radio-group>
+        </section>
+      </div>
+		</form>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click'); save()">Salvar</button>
+	</div>
+</ng-template>
+
+<button class="btn button-float" (click)="open(content)"><i class="bi bi-plus"></i></button>

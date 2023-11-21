@@ -1,0 +1,65 @@
+<div class="container-lg">
+  <div class="row">
+    <form
+      class="col-sm-12 form shadow-lg"
+      #loginForm="ngForm"
+      (ngSubmit)="login(loginForm)"
+    >
+      <div class="d-flex flex-row">
+        <div
+          class="p-2 flex-fill"
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h1>Bem vindo ao NIKEL</h1>
+          <p>
+            Controle suas finanças com precisão, escolha inteligente, escolha
+            Nikel.
+          </p>
+          <p>O seu parceiro confiável para uma gestão financeira impecável!</p>
+        </div>
+        <div class="p-2" style="text-align: center">
+          <img src="../../../assets/pocket.png" style="width: 30%" />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <label for="Usuario" class="col-sm-2">Usuario:</label>
+        <input
+          type="text"
+          class="col-sm-9"
+          [(ngModel)]="usuario"
+          name="usuario"
+          required
+        />
+      </div>
+      <br />
+      <div class="row">
+        <label for="password" class="col-sm-2">Senha:</label>
+        <input
+          type="password"
+          class="col-sm-9"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+      </div>
+      <br />
+      <div style="display: flex; flex-direction: row-reverse">
+        <ngbd-modal-basic></ngbd-modal-basic>
+        <button
+          class="btn button-default"
+          type="submit"
+          style="height: min-content; margin-right: 0.5rem"
+        >
+          Entrar
+        </button>
+      </div>
+      <hr />
+    </form>
+  </div>
+</div>

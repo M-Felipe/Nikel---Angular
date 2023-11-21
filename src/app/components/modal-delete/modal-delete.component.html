@@ -1,0 +1,28 @@
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Deseja confimar a Exclusao de Usuario</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<form>
+      <div class="mb-3">
+				<label for="senha_sub">Senha</label>
+				<div class="input-group">
+					<input
+						id="senha_sub"
+						class="form-control"
+            type="password"
+            [(ngModel)]="senha_sub"
+						placeholder="Insira sua senha"
+						name="senha_sub"
+					/>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-outline-dark" (click)="save(); modal.close('Save click');">Confirmar</button>
+	</div>
+</ng-template>
+
+<button style="border: none; background-color: transparent; padding: 0;" (click)="open(content)">Apagar Conta</button>

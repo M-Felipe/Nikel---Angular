@@ -1,0 +1,9 @@
+body {
+  display: flex;
+}
+
+.content {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  width: 100%;
+}

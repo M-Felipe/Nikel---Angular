@@ -1,0 +1,41 @@
+<div class="container-lg">
+  <div class="row">
+    <div class="col d-flex mt-4 justify-content-start align-items-center">
+      <i class="bi bi-currency-exchange fs-1 mx-2 color-primary"></i>
+      <span class="fs-2">Lançamentos</span>
+    </div>
+    <div class="col d-flex mt-4 justify-content-end">
+      <div class="text-center">
+        <img src="./assets/coins-small.png" alt="image coins" srcset="">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 info shadow-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Data</th>
+                  <th scope="col">Valor</th>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">Descrição</th>
+                </tr>
+              </thead>
+              <tbody id="transactions-list">
+                  <tr *ngFor="let item of transaction">
+                    <th scope="col">{{convertToDate(item.date)}}</th>
+                    <td>R$ {{item.value}}</td>
+                    <td>{{item.type == '1' ? 'Entrada' : 'Saida'}}</td>
+                    <td>{{item.description}}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

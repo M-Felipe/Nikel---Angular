@@ -1,0 +1,18 @@
+label {
+  font-size: x-large;
+}
+
+.form {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  background-color: #ffffff;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 2%;
+}
+
+.button-default {
+  border-radius: 10px;
+  background-color: #4e0070;
+  color: #ffffff;
+}
