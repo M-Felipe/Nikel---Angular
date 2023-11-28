@@ -23,6 +23,14 @@
   </p>
 </div>
 
+## Preview 
+
+<div align="center">
+  	<a href="#">
+      <img src=".github/assets/preview.png" width="400" alt="preview" />
+  	</a>
+</div>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
