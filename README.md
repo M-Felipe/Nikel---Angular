@@ -1,18 +1,6 @@
 # Project - Nikel Clone with Angular
 <div align="center">
 <p align="center">
- <!--
-   <img 
-      alt="Project programing languages count" 
-      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
- -->
-  <!--
-    <img 
-      alt="Last commit on GitHub" 
-      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
-  -->
     <img 
         src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
         alt="Code With Angular">
@@ -35,6 +23,7 @@
 - [x] Fully Component With Angular
 - [x] Developed With Angular
 - [ ] Developed With Firebase
+- [ ] Edit Input/Output
 - [ ] Updates coming soon
 
 ## Technologies & Techniques
