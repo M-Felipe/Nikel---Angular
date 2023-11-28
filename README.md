@@ -1,18 +1,6 @@
 # Project - Nikel Clone with Angular
 <div align="center">
 <p align="center">
- <!--
-   <img 
-      alt="Project programing languages count" 
-      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
- -->
-  <!--
-    <img 
-      alt="Last commit on GitHub" 
-      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
-  -->
     <img 
         src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
         alt="Code With Angular">
@@ -27,30 +15,55 @@
 
 <div align="center">
   	<a href="#">
-      <img src=".github/assets/preview.png" width="400" alt="preview" />
+      <img src=".github/assets/preview.png" width="700" alt="preview" />
   	</a>
 </div>
 
-## Development server
+## Features
+- [x] Fully Component With Angular
+- [x] Developed With Angular
+- [ ] Developed With Firebase
+- [ ] Edit Input/Output
+- [ ] Updates coming soon
+
+## Technologies & Techniques
+
+This project was developed with the following technologies:
+-   [Angular](https://angular.io)
+
+## Building
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+📦 1. Install dependencys
 
-## Build
+```bash
+$ npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+$ cd Nikel---Angular
+```
 
-## Running unit tests
+🔧 3. Run the script
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+$ ng serve
+```
 
-## Running end-to-end tests
+🌐 4. Navigate to
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash 
+ http://localhost:4200/
+```
+Runs the app in the development mode.<br/>
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
+
+---
