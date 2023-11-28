@@ -1,6 +1,35 @@
-# Project
+# Project - Nikel Clone with Angular
+<div align="center">
+<p align="center">
+ <!--
+   <img 
+      alt="Project programing languages count" 
+      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
+    >
+ -->
+  <!--
+    <img 
+      alt="Last commit on GitHub" 
+      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
+    >
+  -->
+    <img 
+        src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
+        alt="Code With Angular">
+   	<img 
+      alt="GitHub license" 
+      src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
+    >
+  </p>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+## Preview 
+
+<div align="center">
+  	<a href="#">
+      <img src=".github/assets/preview.png" width="400" alt="preview" />
+  	</a>
+</div>
 
 ## Development server
 
