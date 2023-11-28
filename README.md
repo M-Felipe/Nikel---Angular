@@ -15,7 +15,9 @@
 
 <div align="center">
   	<a href="#">
-      <img src=".github/assets/preview.png" width="700" alt="preview" />
+      <img src=".github/assets/preview.png" width="450" alt="preview" />
+      <img src=".github/assets/preview-2.png" width="450" alt="preview" />
+      <img src=".github/assets/preview-3.png" width="450" alt="preview" />
   	</a>
 </div>
 
