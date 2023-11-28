@@ -22,8 +22,7 @@
 </div>
 
 ## Description
-- Created a WebApp for Input and Output history of transactions using Local-Storage. Application previously created only with HTML, Javascript and CSS.
-- <a href="https://github.com/M-Felipe/nikel">Nikel</a>
+- Created a WebApp for Input and Output history of transactions using Local-Storage. <a href="https://github.com/M-Felipe/nikel">Nikel</a> Application previously created only with HTML, Javascript and CSS in a GrowDev course.
 
 ## Features
 - [x] Fully Component With Angular
