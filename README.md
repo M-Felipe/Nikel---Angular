@@ -1,7 +1,28 @@
-# Project Nikel with Angular
+# Project - Nikel Clone with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
+<p align="center">
+ <!--
+   <img 
+      alt="Project programing languages count" 
+      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
+    >
+ -->
+  <!--
+    <img 
+      alt="Last commit on GitHub" 
+      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
+    >
+  -->
+    <img 
+        src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
+        alt="Code With Angular">
+   	<img 
+      alt="GitHub license" 
+      src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
+    >
+  </p> 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
