@@ -1,6 +1,4 @@
 # Project - Nikel Clone with Angular
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 <div align="center">
 <p align="center">
  <!--
