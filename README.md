@@ -53,3 +53,28 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ```bash
 $ npm install
 ```
+
+```bash
+$ cd Nikel---Angular
+```
+
+🔧 3. Run the script
+
+```bash
+$ ng serve
+```
+
+🌐 4. Navigate to
+
+```bash 
+ http://localhost:4200/
+```
+Runs the app in the development mode.<br/>
+
+## Editor
+
+| [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
+
+---
