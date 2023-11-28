@@ -1,4 +1,4 @@
-# Project - Nikel Clone with Angular
+# Nikel Clone with Angular
 <div align="center">
 <p align="center">
     <img 
