@@ -1,7 +1,7 @@
 # Project - Nikel Clone with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
-
+<div align="center">
 <p align="center">
  <!--
    <img 
@@ -22,7 +22,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       alt="GitHub license" 
       src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
     >
-  </p> 
+  </p>
+</div>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
