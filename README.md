@@ -1,7 +1,10 @@
-<img src="https://user-images.githubusercontent.com/45159366/101415619-1b103500-389d-11eb-83f8-74f87abf5eaf.png">
-  <br />
-# Nikel Clone with Angular
+
 <div align="center">
+  <h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/101415619-1b103500-389d-11eb-83f8-74f87abf5eaf.png">
+  <br />
+  # Nikel Clone with Angular
+</h1>
 <p align="center">
     <img 
         src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
