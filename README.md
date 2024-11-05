@@ -1,74 +1,74 @@
+
 # Nikel Clone with Angular
 <div align="center">
 <p align="center">
     <img 
         src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
         alt="Code With Angular">
-   	<img 
+    <img 
       alt="GitHub license" 
       src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
     >
-  </p>
+</p>
 </div>
 
-## Preview 
+## Preview
 
 <div align="center">
-  	<a href="#">
+    <a href="#">
       <img src=".github/assets/preview.png" width="450" alt="preview" />
       <img src=".github/assets/preview-2.png" width="450" alt="preview" />
       <img src=".github/assets/preview-3.png" width="450" alt="preview" />
-  	</a>
+    </a>
 </div>
 
-## Description
-- Created a Web for Input and Output history of transactions using Local-Storage. <a href="https://github.com/M-Felipe/nikel">Nikel</a> Application previously created only with HTML, Javascript and CSS in a GrowDev course.
+## Descrição
+Este projeto é um clone da aplicação <a href="https://github.com/M-Felipe/nikel">Nikel</a> desenvolvida originalmente em HTML, Javascript e CSS como parte de um curso da GrowDev. É uma plataforma de histórico de transações de entrada e saída, agora recriada utilizando Angular e Local Storage.
 
-## Features
-- [x] Fully Component With Angular
-- [x] Developed With Angular
-- [ ] Developed With Firebase
-- [ ] Edit Input/Output
-- [ ] Updates coming soon
+## Funcionalidades
+- [x] Totalmente Componentizado com Angular
+- [x] Desenvolvido com Angular
+- [ ] Implementação com Firebase (em breve)
+- [ ] Edição de Transações
+- [ ] Novas Atualizações em breve
 
-## Technologies & Techniques
+## Tecnologias & Técnicas
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido utilizando:
 -   [Angular](https://angular.io)
 
-## Building
+## Como Rodar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Instale as dependências:
 
-## Usage
+    ```bash
+    npm install
+    ```
 
-📦 1. Install dependencys
+2. Navegue até o diretório do projeto:
 
-```bash
-$ npm install
-```
+    ```bash
+    cd Nikel---Angular
+    ```
 
-```bash
-$ cd Nikel---Angular
-```
+3. Execute o servidor de desenvolvimento:
 
-🔧 3. Run the script
+    ```bash
+    ng serve
+    ```
 
-```bash
-$ ng serve
-```
+4. Acesse a aplicação:
 
-🌐 4. Navigate to
+    ```bash
+    http://localhost:4200/
+    ```
 
-```bash 
- http://localhost:4200/
-```
-Runs the app in the development mode.<br/>
+A aplicação rodará em modo de desenvolvimento e recarregará automaticamente ao detectar mudanças nos arquivos de origem.
 
 ## Autor
 
 | [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
 | :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
+| [LinkedIn](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/) |
 
 ---
